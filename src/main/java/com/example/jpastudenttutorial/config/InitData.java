@@ -21,9 +21,12 @@ public class InitData implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
+
+
         Student[] students = {
                 new Student("Alice", LocalDate.of(1999, 8, 15), LocalDateTime.of(11, 10, 2, 0, 0)),
                 new Student("Bob", LocalDate.of(2000, 12, 2), LocalDateTime.of(11, 10, 2, 0, 0)),
+                new Student ("ca", LocalDate.of(2003, 12, 2), LocalDateTime.of(11, 12, 2, 0, 0)),
                 new Student("Charlie", LocalDate.of(2001, 5, 22), LocalDateTime.of(11, 10, 2, 0, 0))
         };
 

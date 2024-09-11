@@ -19,7 +19,6 @@ public class Student {
     private LocalDateTime bornTime;
 
 
-
     public Student (String name, LocalDate bornDate, LocalDateTime bornTime) {
         this.name = name;
         this.bornDate = bornDate;
